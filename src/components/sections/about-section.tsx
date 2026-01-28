@@ -68,7 +68,7 @@ export default function AboutSection() {
             <Card
               key={area.title}
               className={cn(
-                'flex h-full flex-col items-start p-6 bg-card border-2 transition-all duration-300',
+                'flex h-full flex-col items-start p-8 bg-card border-2 transition-all duration-300',
                 area.colorClass
               )}
             >
