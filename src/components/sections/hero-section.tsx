@@ -6,7 +6,7 @@ import { profile } from '@/lib/data';
 
 export default function HeroSection() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
+    <section className="w-full border-b py-12 md:py-24 lg:py-32">
       <div className="container">
         <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <div className="flex flex-col justify-center space-y-6">
