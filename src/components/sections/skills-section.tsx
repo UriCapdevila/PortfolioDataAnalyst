@@ -26,36 +26,23 @@ export default function SkillsSection() {
                   {category.title}
                 </CardTitle>
               </CardHeader>
-              {category.showProgress ? (
-                <CardContent className="grid gap-6">
-                  {category.skills.map((skill) => (
-                    <div key={skill.name} className="grid gap-2">
-                      <div className="flex items-center justify-between">
-                        <h3 className="text-sm font-medium">{skill.name}</h3>
-                        <span className="text-sm text-muted-foreground">
-                          {skill.level}%
-                        </span>
-                      </div>
-                      <Progress
-                        value={skill.level}
-                        indicatorClassName={category.progressColor}
-                        aria-label={skill.name}
-                      />
-                    </div>
-                  ))}
-                </CardContent>
-              ) : (
-                <CardContent className="grid gap-4">
-                  {category.skills.map((skill) => (
-                    <div key={skill.name} className="flex items-center justify-between">
+              <CardContent className="grid gap-6">
+                {category.skills.map((skill) => (
+                  <div key={skill.name} className="grid gap-2">
+                    <div className="flex items-center justify-between">
                       <h3 className="text-sm font-medium">{skill.name}</h3>
                       <span className="text-sm text-muted-foreground">
                         {skill.level}%
                       </span>
                     </div>
-                  ))}
-                </CardContent>
-              )}
+                    <Progress
+                      value={skill.level}
+                      indicatorClassName={category.progressColor}
+                      aria-label={skill.name}
+                    />
+                  </div>
+                ))}
+              </CardContent>
             </Card>
           ))}
         </div>

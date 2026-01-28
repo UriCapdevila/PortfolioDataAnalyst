@@ -8,7 +8,6 @@ export type SkillCategory = {
   skills: Skill[];
   progressColor: string;
   titleColor: string;
-  showProgress?: boolean;
 };
 
 export type Project = {
