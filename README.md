@@ -39,28 +39,6 @@ Este proyecto utiliza un conjunto de tecnologías de última generación para lo
 ### Hosting
 *   **Plataforma:** **Firebase App Hosting** - Para un despliegue continuo, escalable y de alto rendimiento.
 
-## Ejecutar el Proyecto Localmente
-
-Si deseas explorar el código o ejecutar el proyecto en tu máquina local, sigue estos sencillos pasos:
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
-    cd tu-repositorio
-    ```
-
-2.  **Instalar dependencias:**
-    ```bash
-    npm install
-    ```
-
-3.  **Iniciar el servidor de desarrollo:**
-    ```bash
-    npm run dev
-    ```
-
-Abre [http://localhost:9002](http://localhost:9002) en tu navegador para ver el resultado.
-
 ---
 
 ¡Gracias por tu interés en mi trabajo!

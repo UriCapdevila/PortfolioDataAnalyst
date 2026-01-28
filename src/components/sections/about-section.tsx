@@ -1,23 +1,95 @@
+import { BarChart3, CodeXml, Database, Layers } from 'lucide-react';
+import { Card } from '@/components/ui/card';
+import { cn } from '@/lib/utils';
+
+const expertiseAreas = [
+  {
+    icon: Database,
+    title: 'Ciencia de Datos',
+    description:
+      'Análisis exploratorio, modelado estadístico y machine learning para extraer valor de los datos.',
+    colorClass: 'border-primary/40 hover:border-primary',
+    iconColorClass: 'text-primary',
+    iconBgColorClass: 'bg-primary/10',
+  },
+  {
+    icon: CodeXml,
+    title: 'Desarrollo Full Stack',
+    description:
+      'Aplicaciones web modernas con React, Node.js y arquitecturas escalables.',
+    colorClass: 'border-chart-1/40 hover:border-chart-1',
+    iconColorClass: 'text-chart-1',
+    iconBgColorClass: 'bg-chart-1/10',
+  },
+  {
+    icon: BarChart3,
+    title: 'Business Intelligence',
+    description:
+      'Dashboards interactivos y reportes ejecutivos que impulsan decisiones estratégicas.',
+    colorClass: 'border-chart-4/40 hover:border-chart-4',
+    iconColorClass: 'text-chart-4',
+    iconBgColorClass: 'bg-chart-4/10',
+  },
+  {
+    icon: Layers,
+    title: 'Data Engineering',
+    description:
+      'Pipelines de datos robustos, ETL y optimización de bases de datos.',
+    colorClass: 'border-chart-2/40 hover:border-chart-2',
+    iconColorClass: 'text-chart-2',
+    iconBgColorClass: 'bg-chart-2/10',
+  },
+];
+
 export default function AboutSection() {
   return (
     <section id="about" className="w-full py-12 md:py-24 lg:py-32">
       <div className="container">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">
-              Sobre mí
-            </h2>
-            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Soy un profesional con un perfil híbrido único que combina una
-              profunda experiencia en Ciencia de Datos con habilidades sólidas
-              en Desarrollo Web Full Stack. Mi pasión es cerrar la brecha entre
-              el análisis de datos y la implementación de productos, creando
-              soluciones que no solo son inteligentes, sino también funcionales,
-              escalables y atractivas para el usuario final. Disfruto
-              transformando datos crudos en historias y aplicaciones que generan
-              valor real.
+          <div className="space-y-6">
+            <div className="flex flex-col items-center gap-2">
+              <div className="inline-block rounded-lg bg-secondary px-3 py-1 text-sm font-semibold text-primary">
+                SOBRE MÍ
+              </div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl font-headline">
+                Perfil Híbrido en Tecnología
+              </h2>
+            </div>
+            <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed">
+              Combino la rigurosidad analítica del Data Science con la
+              creatividad del desarrollo web para crear soluciones completas y
+              efectivas.
             </p>
           </div>
+        </div>
+
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+          {expertiseAreas.map((area) => (
+            <Card
+              key={area.title}
+              className={cn(
+                'flex h-full flex-col items-start p-6 bg-card border-2 transition-all duration-300',
+                area.colorClass
+              )}
+            >
+              <div
+                className={cn(
+                  'mb-4 p-3 rounded-lg transition-colors',
+                  area.iconBgColorClass
+                )}
+              >
+                <area.icon
+                  className={cn('h-7 w-7 transition-colors', area.iconColorClass)}
+                />
+              </div>
+              <h3 className="mb-2 text-lg font-bold text-card-foreground">
+                {area.title}
+              </h3>
+              <p className="text-sm text-muted-foreground">
+                {area.description}
+              </p>
+            </Card>
+          ))}
         </div>
       </div>
     </section>
