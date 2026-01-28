@@ -18,7 +18,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="bg-secondary">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-6 sm:flex-row">
+      <div className="container flex flex-col items-center justify-between gap-4 py-6 sm:flex-row">
         <div className="text-center text-sm text-muted-foreground sm:text-left">
           <p>
             &copy; {new Date().getFullYear()} DataFolio Pro. Todos los derechos
