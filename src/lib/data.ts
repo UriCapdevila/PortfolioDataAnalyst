@@ -1,4 +1,4 @@
-import type { Project, Skill } from './types';
+import type { Project, SkillCategory } from './types';
 import { PlaceHolderImages } from './placeholder-images';
 
 const getImage = (id: string) => {
@@ -10,12 +10,40 @@ const getImage = (id: string) => {
   return { id: image.id, url: image.imageUrl, hint: image.imageHint };
 };
 
-export const skills: Skill[] = [
-  { name: 'Python (Pandas, Matplotlib)', level: 95 },
-  { name: 'SQL', level: 90 },
-  { name: 'React', level: 85 },
-  { name: 'Node.js', level: 80 },
-  { name: 'BI Tools (Tableau, Power BI)', level: 88 },
+export const skills: SkillCategory[] = [
+  {
+    title: 'Data Science & Analytics',
+    progressColor: 'bg-primary',
+    titleColor: 'text-primary',
+    skills: [
+      { name: 'Python (Pandas, NumPy)', level: 95 },
+      { name: 'Data Visualization (Matplotlib, Seaborn)', level: 90 },
+      { name: 'Machine Learning (Scikit-learn)', level: 85 },
+      { name: 'Statistical Analysis', level: 88 },
+    ],
+  },
+  {
+    title: 'Databases & BI',
+    progressColor: 'bg-chart-4',
+    titleColor: 'text-chart-4',
+    skills: [
+      { name: 'SQL (PostgreSQL, MySQL)', level: 92 },
+      { name: 'Power BI', level: 88 },
+      { name: 'Tableau', level: 82 },
+      { name: 'Excel Avanzado', level: 95 },
+    ],
+  },
+  {
+    title: 'Full Stack Development',
+    progressColor: 'bg-accent',
+    titleColor: 'text-accent',
+    skills: [
+      { name: 'React / Next.js', level: 90 },
+      { name: 'Node.js / Express', level: 85 },
+      { name: 'TypeScript', level: 82 },
+      { name: 'REST APIs & GraphQL', level: 88 },
+    ],
+  },
 ];
 
 export const projects: Project[] = [

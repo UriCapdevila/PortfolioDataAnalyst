@@ -3,6 +3,13 @@ export type Skill = {
   level: number;
 };
 
+export type SkillCategory = {
+  title: string;
+  skills: Skill[];
+  progressColor: string;
+  titleColor: string;
+};
+
 export type Project = {
   id: string;
   title: string;
