@@ -15,6 +15,7 @@ export const skills: SkillCategory[] = [
     title: 'Data Science & Analytics',
     progressColor: 'bg-primary',
     titleColor: 'text-primary',
+    showProgress: true,
     skills: [
       { name: 'Python (Pandas, NumPy)', level: 95 },
       { name: 'Data Visualization (Matplotlib, Seaborn)', level: 90 },
@@ -26,6 +27,7 @@ export const skills: SkillCategory[] = [
     title: 'Databases & BI',
     progressColor: 'bg-chart-4',
     titleColor: 'text-chart-4',
+    showProgress: false,
     skills: [
       { name: 'SQL (PostgreSQL, MySQL)', level: 92 },
       { name: 'Power BI', level: 88 },
@@ -37,6 +39,7 @@ export const skills: SkillCategory[] = [
     title: 'Full Stack Development',
     progressColor: 'bg-accent',
     titleColor: 'text-accent',
+    showProgress: true,
     skills: [
       { name: 'React / Next.js', level: 90 },
       { name: 'Node.js / Express', level: 85 },
