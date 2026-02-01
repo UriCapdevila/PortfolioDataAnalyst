@@ -28,7 +28,7 @@ export default function Header() {
           className="mr-6 flex items-center space-x-2"
           onClick={() => setSheetOpen(false)}
         >
-          <span className="font-bold sm:inline-block">DataFolio Pro</span>
+          <span className="font-bold sm:inline-block">Mi Portfolio Profesional</span>
         </Link>
         <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
           {navLinks.map((link) => (
@@ -53,7 +53,7 @@ export default function Header() {
               <SheetHeader>
                 <SheetTitle>
                   <Link href="/" onClick={() => setSheetOpen(false)}>
-                    DataFolio Pro
+                    Portfolio Profesional
                   </Link>
                 </SheetTitle>
               </SheetHeader>
