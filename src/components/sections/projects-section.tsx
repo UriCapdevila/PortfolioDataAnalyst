@@ -20,7 +20,7 @@ export default function ProjectsSection({ limit }: ProjectsSectionProps) {
   const displayedProjects = limit ? projects.slice(0, limit) : projects;
 
   return (
-    <section id="projects" className="w-full py-12 md:py-24 lg:py-32">
+    <section id="projects" className="w-full py-12 md:py-20 lg:py-24">
       <div className="container space-y-12">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">

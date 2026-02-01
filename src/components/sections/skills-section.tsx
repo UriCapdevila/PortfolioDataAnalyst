@@ -5,7 +5,7 @@ import { cn } from '@/lib/utils';
 
 export default function SkillsSection() {
   return (
-    <section id="skills" className="w-full py-12 md:py-24 lg:py-32 bg-background">
+    <section id="skills" className="w-full py-12 md:py-20 lg:py-24 bg-background">
       <div className="container">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-3">
