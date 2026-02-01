@@ -40,7 +40,13 @@ export default function ContactSection() {
           </div>
           <div className="flex flex-wrap justify-center gap-4 pt-4">
             {socialLinks.map((link) => (
-              <Button key={link.name} variant="outline" size="lg" asChild>
+              <Button
+                key={link.name}
+                variant="outline"
+                size="lg"
+                asChild
+                className="transition-all duration-300 ease-in-out hover:scale-105 hover:bg-accent hover:text-accent-foreground"
+              >
                 <Link
                   href={link.url}
                   target="_blank"
