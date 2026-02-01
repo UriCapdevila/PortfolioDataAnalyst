@@ -10,7 +10,7 @@
 
 El objetivo principal de **DataFolio Pro** es presentar mi perfil profesional de una manera moderna, rápida y efectiva. La lógica detrás de su creación se basa en tres pilares:
 
-1.  **Desarrollo Asistido por IA:** Este sitio fue construido en colaboración con **Gemini**, un asistente de codificación de IA. Este enfoque me permitió acelerar significativamente el desarrollo, desde la creación de componentes hasta la implementación de lógica compleja, demostrando mi capacidad para adoptar y dirigir flujos de trabajo de desarrollo modernos y eficientes.
+1.  **Desarrollo Asistido por IA:** Este sitio fue construido en colaboración con **Gemini**, un asistente de codificación de IA. Este enfoque me permitió acelerar significativamente el desarrollo,demostrando mi capacidad para adoptar y dirigir flujos de trabajo de desarrollo modernos y eficientes.
 
 2.  **Excelencia Técnica:** La elección de tecnologías no fue al azar. Se optó por un stack moderno y robusto que garantiza un rendimiento excepcional, una gran experiencia de usuario (UX) y un código mantenible y escalable.
 
@@ -33,11 +33,11 @@ Este proyecto utiliza un conjunto de tecnologías de última generación para lo
 *   **Mutaciones de Datos:** **Next.js Server Actions** - Para gestionar el envío de formularios (como el de contacto) de forma segura y eficiente, sin necesidad de crear endpoints de API manualmente.
 
 ### Desarrollo y Herramientas
-*   **Asistente de IA:** **Google Gemini** - Utilizado para la generación de código, refactorización, depuración y la implementación de la lógica de la aplicación.
+*   **Asistente de IA:** **Google Gemini** - Utilizado para la generación de código y depuración.
 *   **Gestor de Paquetes:** **npm**.
 
 ### Hosting
-*   **Plataforma:** **Firebase App Hosting** - Para un despliegue continuo, escalable y de alto rendimiento.
+*   **Plataforma:** **Netlify** - Para un despliegue continuo, escalable y de alto rendimiento.
 
 ---
 

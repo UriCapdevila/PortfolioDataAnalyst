@@ -54,7 +54,7 @@ export default function HeroSection() {
                 data-ai-hint={profile.image.hint}
               />
               <div className="absolute top-[20%] -right-[15%] rounded-full border border-border bg-muted/30 px-4 py-2 text-sm backdrop-blur-sm">
-                Python Expert
+                Python
               </div>
               <div className="absolute bottom-[20%] -left-[15%] rounded-full border border-border bg-muted/30 px-4 py-2 text-sm backdrop-blur-sm">
                 Full Stack Dev
