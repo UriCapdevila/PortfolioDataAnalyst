@@ -63,7 +63,7 @@ export default function HeroSection() {
           </div>
 
           {/* Profile Picture Column */}
-          <div className="flex justify-center md:justify-start">
+          <div className="flex justify-center md:justify-end">
             <Image
               src={profile.image.url}
               alt="Foto de perfil de Uriel Capdevila"
