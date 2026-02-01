@@ -17,27 +17,27 @@ const expertiseAreas = [
     title: 'Desarrollo Full Stack',
     description:
       'Aplicaciones web modernas con React, Node.js y arquitecturas escalables.',
-    colorClass: 'border-chart-1/40 hover:border-chart-1',
-    iconColorClass: 'text-chart-1',
-    iconBgColorClass: 'bg-chart-1/10',
+    colorClass: 'border-accent/40 hover:border-accent',
+    iconColorClass: 'text-accent',
+    iconBgColorClass: 'bg-accent/10',
   },
   {
     icon: BarChart3,
     title: 'Business Intelligence',
     description:
       'Dashboards interactivos y reportes ejecutivos que impulsan decisiones estratégicas.',
-    colorClass: 'border-chart-4/40 hover:border-chart-4',
-    iconColorClass: 'text-chart-4',
-    iconBgColorClass: 'bg-chart-4/10',
+    colorClass: 'border-primary/40 hover:border-primary',
+    iconColorClass: 'text-primary',
+    iconBgColorClass: 'bg-primary/10',
   },
   {
     icon: Layers,
     title: 'Data Engineering',
     description:
       'Pipelines de datos robustos, ETL y optimización de bases de datos.',
-    colorClass: 'border-chart-2/40 hover:border-chart-2',
-    iconColorClass: 'text-chart-2',
-    iconBgColorClass: 'bg-chart-2/10',
+    colorClass: 'border-accent/40 hover:border-accent',
+    iconColorClass: 'text-accent',
+    iconBgColorClass: 'bg-accent/10',
   },
 ];
 

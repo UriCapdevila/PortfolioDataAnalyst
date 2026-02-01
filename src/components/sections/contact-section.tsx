@@ -45,7 +45,7 @@ export default function ContactSection() {
                 variant="outline"
                 size="lg"
                 asChild
-                className="transition-all duration-300 ease-in-out hover:scale-105 hover:bg-accent hover:text-accent-foreground"
+                className="transition-all duration-300 ease-in-out hover:scale-105"
               >
                 <Link
                   href={link.url}

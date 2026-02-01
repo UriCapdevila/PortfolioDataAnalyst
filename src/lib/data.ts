@@ -24,8 +24,8 @@ export const skills: SkillCategory[] = [
   },
   {
     title: 'Databases & BI',
-    progressColor: 'bg-chart-4',
-    titleColor: 'text-chart-4',
+    progressColor: 'bg-accent',
+    titleColor: 'text-accent',
     skills: [
       { name: 'SQL (PostgreSQL, MySQL)', level: 92 },
       { name: 'Power BI', level: 88 },
@@ -35,8 +35,8 @@ export const skills: SkillCategory[] = [
   },
   {
     title: 'Full Stack Development',
-    progressColor: 'bg-accent',
-    titleColor: 'text-accent',
+    progressColor: 'bg-primary',
+    titleColor: 'text-primary',
     skills: [
       { name: 'React / Next.js', level: 90 },
       { name: 'Node.js / Express', level: 85 },
