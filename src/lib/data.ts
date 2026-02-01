@@ -80,4 +80,5 @@ export const profile = {
   name: "Analista de Datos y Desarrollador",
   cvUrl: "/reports/cv-uriel-capdevila.pdf",
   image: getImage('hero-profile'),
+  backgroundImage: getImage('hero-background'),
 }
