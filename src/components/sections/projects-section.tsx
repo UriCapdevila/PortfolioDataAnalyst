@@ -37,7 +37,7 @@ export default function ProjectsSection({ limit }: ProjectsSectionProps) {
           {displayedProjects.map((project) => (
             <Card
               key={project.id}
-              className="flex flex-col overflow-hidden transition-transform transform hover:scale-105 hover:shadow-xl"
+              className="flex flex-col overflow-hidden transition-all duration-300 transform hover:scale-[1.03] hover:shadow-xl hover:shadow-primary/10"
             >
               <Link href={`/projects/${project.id}`} className="block">
                 <Image
