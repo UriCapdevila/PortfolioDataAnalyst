@@ -2,7 +2,7 @@
 
 ¡Hola! Bienvenido al repositorio de mi portafolio profesional. Este proyecto no es solo una muestra de mis trabajos, sino también un reflejo de mis habilidades técnicas, mi enfoque en la calidad del código y mi capacidad para utilizar herramientas de vanguardia en el desarrollo de software.
 
-**[Ver el sitio en vivo](URL_DEL_SITIO)** (Reemplazar con el enlace de producción)
+**[Ver el sitio en vivo]((https://urielcapdeviladataanalyst.netlify.app/))** 
 
 ---
 
