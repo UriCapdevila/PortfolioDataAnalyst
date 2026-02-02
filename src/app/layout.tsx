@@ -5,10 +5,25 @@ import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 
+const siteTitle = 'DataFolio Pro | Data Analyst & Full Stack Developer Portfolio';
+const siteDescription =
+  'Portfolio of a professional Data Analyst and Full Stack Developer, showcasing projects and skills in data science and web development.';
+
 export const metadata: Metadata = {
-  title: 'DataFolio Pro | Data Analyst & Full Stack Developer Portfolio',
-  description:
-    'Portfolio of a professional Data Analyst and Full Stack Developer, showcasing projects and skills in data science and web development.',
+  title: siteTitle,
+  description: siteDescription,
+  openGraph: {
+    title: siteTitle,
+    description: siteDescription,
+    siteName: 'DataFolio Pro',
+    type: 'website',
+    locale: 'es_ES',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteTitle,
+    description: siteDescription,
+  },
 };
 
 export default function RootLayout({
