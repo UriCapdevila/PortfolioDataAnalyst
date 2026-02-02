@@ -5,18 +5,21 @@ import { Toaster } from '@/components/ui/toaster';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 
-const siteTitle = 'DataFolio Pro | Data Analyst & Full Stack Developer Portfolio';
+const siteTitle = 'Portfolio Profesional | Uriel Capdevila';
 const siteDescription =
-  'Portfolio of a professional Data Analyst and Full Stack Developer, showcasing projects and skills in data science and web development.';
+  'Portfolio profesional de Uriel Capdevila, Analista de Datos y Desarrollador Full Stack, mostrando proyectos y habilidades.';
 
 export const metadata: Metadata = {
-  title: siteTitle,
+  title: {
+    default: siteTitle,
+    template: `%s | Uriel Capdevila`,
+  },
   description: siteDescription,
   openGraph: {
     title: siteTitle,
     description: siteDescription,
     images: ['/images/opengraph-image.png'],
-    siteName: 'DataFolio Pro',
+    siteName: 'Portfolio Profesional de Uriel Capdevila',
     type: 'website',
     locale: 'es_ES',
   },

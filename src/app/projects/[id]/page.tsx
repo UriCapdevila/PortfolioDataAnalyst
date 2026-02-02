@@ -6,10 +6,28 @@ import { Button } from '@/components/ui/button';
 import { Download, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 import FadeInOnScroll from '@/components/fade-in-on-scroll';
+import type { Metadata } from 'next';
 
 type ProjectDetailPageProps = {
   params: { id: string };
 };
+
+export async function generateMetadata({
+  params,
+}: ProjectDetailPageProps): Promise<Metadata> {
+  const project = projects.find((p) => p.id === params.id);
+
+  if (!project) {
+    return {
+      title: 'Proyecto no encontrado',
+    };
+  }
+
+  return {
+    title: project.title,
+    description: project.description,
+  };
+}
 
 export function generateStaticParams() {
   return projects.map((project) => ({
