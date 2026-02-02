@@ -1,4 +1,4 @@
-# DataFolio Pro: Portfolio Profesional de Analista de Datos y Desarrollador Full Stack
+# Portfolio Profesional de Analista de Datos y Desarrollador Full Stack
 
 ¡Hola! Bienvenido al repositorio de mi portafolio profesional. Este proyecto no es solo una muestra de mis trabajos, sino también un reflejo de mis habilidades técnicas, mi enfoque en la calidad del código y mi capacidad para utilizar herramientas de vanguardia en el desarrollo de software.
 
