@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteTitle,
     description: siteDescription,
+    images: ['/images/opengraph-image.png'],
     siteName: 'DataFolio Pro',
     type: 'website',
     locale: 'es_ES',
@@ -23,6 +24,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteTitle,
     description: siteDescription,
+    images: ['/images/opengraph-image.png'],
+  },
+  icons: {
+    icon: '/favicon.ico',
   },
 };
 
